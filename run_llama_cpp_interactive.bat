@@ -1,0 +1,1 @@
+thirdparty\llama.cpp\build\bin\Release\main.exe -m models\7B-chat\ggml-model-q4_0.gguf -n 256 --repeat_penalty 1.0 --color -i -r "User:" -f prompts\chat.txt
