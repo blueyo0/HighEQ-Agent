@@ -10,12 +10,13 @@ class Scene:
     prompt: str
     npc_image: str
     user_image: str
+    tips: str
 
 _REGISTERED_SCENES = []
 
-def register_scene(series, title, background, npc_name, npc_message, prompt, npc_image, user_image):
+def register_scene(series, title, background, npc_name, npc_message, prompt, npc_image, user_image, tips):
     _REGISTERED_SCENES.append(
-        Scene(series, title, background, npc_name, npc_message, prompt, npc_image, user_image)
+        Scene(series, title, background, npc_name, npc_message, prompt, npc_image, user_image, tips)
     )
 
 def list_sorted_scene():
