@@ -1,4 +1,4 @@
-# 😳 高情商训练器（High EQ Trainer）：一起成为高质量人类 
+# 😳 高情商训练器(High EQ Trainer): 一起成为高质量人类 
  
 ## 📖 介绍
 
