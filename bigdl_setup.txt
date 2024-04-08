@@ -1,0 +1,38 @@
+conda create -n bigdl_env python=3.9 -y
+conda activate bigdl_env
+pip install --pre --upgrade bigdl-llm[all]
+pip install --pre --upgrade ipex-llm[xpu] -f https://developer.intel.com/ipex-whl-stable-xpu
+conda install libuv
+pip install git+https://github.com/huggingface/transformers
+Pip install transformers==4.38.2
+pip install einops transformers_stream_generator
+pip install tiktoken optimum auto-gptq
+call "C:\Program Files (x86)\Intel\oneAPI\setvars.bat"
+set SYCL_CACHE_PERSISTENT=1
+
+C:\Users\conte\.conda\envs\bigdl_env\python.exe -c "import intel_extension_for_pytorch"
+
+Set HF_ENDPOINT=https://hf-mirror.com
+cd Models\BigDL\python\llm\example\GPU\HF-Transformers-AutoModels\Model\phi-2
+C:\ProgramData\anaconda3\envs\bigdl_env\python.exe generate.py --prompt "What is AI?"
+C:\Users\conte\.conda\envs\bigdl_env\python.exe generate.py --prompt "What is AI?"
+
+pip install --pre --upgrade ipex-llm[cpp]
+mkdir bigdl
+cd bigdl
+
+Admin Anaconda Prompt
+conda activate bigdl_env
+init-llama-cpp.bat
+call "C:\Program Files (x86)\Intel\oneAPI\setvars.bat"
+main.exe -m D:\Public\High_EQ_Trainer-main\models\7B-chat\Qwen-7B-Chat.Q4_K_M.gguf -n 512 --prompt "How are you?" -t 8 -e -ngl 33 --color
+main.exe -m D:\Public\High_EQ_Trainer-main\models\7B-chat\Qwen-7B-Chat.Q4_K_M.gguf -n 512 --prompt "Once upon a time, there existed a little girl who liked to have adventures. She wanted to go to places and meet new people, and have fun" -t 8 -e -ngl 33 --color
+main.exe -m D:\Public\High_EQ_Trainer-main\models\7B-chat\Qwen-7B-Chat.Q4_K_M.gguf -n 512 -i -r "User: " -t 8 -e -ngl 33 --color
+
+set http_proxy=
+set https_proxy=
+Could not create share link. Missing file: C:\Users\conte\.conda\envs\bigdl_env\lib\site-packages\gradio\frpc_windows_amd64_v0.2.
+You can install manually by following these steps:
+1. Download this file: https://cdn-media.huggingface.co/frpc-gradio-0.2/frpc_windows_amd64.exe
+2. Rename the downloaded file to: frpc_windows_amd64_v0.2
+3. Move the file to this location: C:\Users\conte\.conda\envs\bigdl_env\lib\site-packages\gradio

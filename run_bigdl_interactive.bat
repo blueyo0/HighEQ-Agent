@@ -1,0 +1,1 @@
+bigdl\main.exe -m D:\Public\High_EQ_Trainer-main\models\7B-chat\Qwen-7B-Chat.Q4_K_M.gguf -n 256 -t 8 -e -ngl 33 --color --repeat_penalty 1.0 -i -r "User:" -f prompts\chat.txt

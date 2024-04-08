@@ -8,5 +8,6 @@ from .base import register_llm, get_llm_fn, _LLMS
 # from .qwen_4b import ask_qwen_4b
 
 # from .openai import ask_gpt4
-from .minicpm_no_prompt import ask_minicpm_no_prompt
+# from .minicpm_no_prompt import ask_minicpm_no_prompt
+from .qwen_7b_chat_q4 import ask_qwen_7b_chat
 # from .qwen_no_prompt import ask_qwen_no_prompt
