@@ -1,4 +1,9 @@
 # 😳 高情商训练器(High EQ Trainer): 一起成为高质量人类 
+
+## 📀 演示视频
+
+https://github.com/blueyo0/High_EQ_Trainer/assets/30562758/c87623b0-3e37-4ea2-af59-2951f22a71e6
+
  
 ## 📖 介绍
 
@@ -18,7 +23,4 @@
 - Multiple LLM Agents 交互的 RolePlay 场景
 - RAG + LLM 的知识性 RolyPlay 交流
 
-## 📀 演示视频
-
-https://github.com/blueyo0/High_EQ_Trainer/assets/30562758/c87623b0-3e37-4ea2-af59-2951f22a71e6
 
