@@ -22,6 +22,6 @@ https://github.com/blueyo0/High_EQ_Trainer/assets/30562758/c87623b0-3e37-4ea2-af
 
 - Multiple LLM Agents 交互的 RolePlay 场景
 - RAG + LLM 的知识性 RolyPlay 交流
-- 能理解聊天图片，尤其是和一些梗相关联的内容的 Multi-Model LLM
+- 能理解聊天图片，尤其是和一些梗相关联的内容的 LMM
 
 
