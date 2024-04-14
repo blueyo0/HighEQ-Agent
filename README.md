@@ -4,12 +4,21 @@
 
 和AI一起练情商，一句话暖TA一整天！
 
+## 🔨 技术方案
+
+本应用的核心idea是 情商场景下的 LLM RolePlay 趣味应用。
+
+已完成开发的功能：
+
+- 本地部署/端云协同的 LLM RolePlay, 已支持 GPT-4/Qwen/Gemma 等本地模型 or API，其中LLM本地部署支持iGPU部署
+- 基于 Whisper 的语音输入功能，基于 Intel Ultra CPU 提供了 iGPU+NPU 的混合部署方案
+
+开发/研究中的功能：
+
+- Multiple LLM Agents 交互的 RolePlay 场景
+- RAG + LLM 的知识性 RolyPlay 交流
+
 ## 📀 演示视频
 
-https://github.com/blueyo0/High_EQ_Trainer/assets/30562758/24b28f16-432d-4dab-a90c-744dec5f0401
+https://github.com/blueyo0/High_EQ_Trainer/assets/30562758/c87623b0-3e37-4ea2-af59-2951f22a71e6
 
-
-## 🔨 实际场景
-![成功](high_eq_trainer/assets/example/1-1_positive.png)
-
-![失败](high_eq_trainer/assets/example/1-1_negative.png)
