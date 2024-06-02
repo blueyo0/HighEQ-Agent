@@ -1,4 +1,7 @@
-# 😳 高情商训练器(High EQ Trainer): 一起成为高质量人类 
+# 😳 高情商小助理: 一起成为高质量人类 
+
+## Roadmap
+We are now working on integrating this agent into Coze and Lobe-chat.
 
 ## 📀 演示视频
 
